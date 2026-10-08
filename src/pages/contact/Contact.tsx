@@ -183,9 +183,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* =====================================================
-          CTA
-      ===================================================== */}
+      
 
       <section className="border-t border-[var(--color-border-subtle)] py-24 sm:py-28 lg:py-32">
         <div className="mx-auto max-w-[900px] px-5 text-center">
@@ -204,7 +202,7 @@ export default function Contact() {
             </p>
 
             <a
-              href="mailto:TON_EMAIL_ICI"
+              href="mailto:mamadou.coulibaly@etu.univ-tours.fr"
               className="mt-8 inline-flex items-center gap-2 border border-[var(--color-accent)] bg-[var(--color-accent)] px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1"
             >
               {t.contact.page.cta.button}
